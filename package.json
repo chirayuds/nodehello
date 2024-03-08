@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Basic Installation Details",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "nodemon app.js"
   },
   "author": "Chirayu Shri",
   "license": "ISC",
